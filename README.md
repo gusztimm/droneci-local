@@ -27,8 +27,9 @@ See https://docs.drone.io/server/provider/github/ for details.
 
 There are example env files shipped with this repository, fill in and rename as follows.
 
-'drone-server.env': Env file for the Drone Server
-'drone-runner.env': Env file for the Drone Runner
+`drone-server.env`: Env file for the Drone Server
+
+`drone-runner.env`: Env file for the Drone Runner
 
 # Deployment
 
