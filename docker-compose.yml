@@ -8,7 +8,7 @@ services:
   drone-server:
     image: drone/drone:2
     env_file:
-      - drone-server.env
+      - ./envs/drone-server.env
     volumes:
       - /var/lib/drone:/data
     networks:
@@ -21,7 +21,7 @@ services:
   drone-runner:
     image: drone/drone-runner-docker:1
     env_file:
-      - drone-runner.env
+      - ./envs/drone-runner.env
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     networks:
