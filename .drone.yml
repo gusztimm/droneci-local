@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: say-hello
+  image: alpine
+  commands:
+  - echo "Hello World"
