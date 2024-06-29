@@ -3,7 +3,7 @@ This is a local deployment of Drone CI for executing CI/CD pipelines locally, wi
 
 # Prerequisites
 
-1. Setup public domain name
+**1. Setup public domain name**
 
 When installing the Drone server on your laptop for testing purposes, use a service like `ngrok` to provide your Drone server with a publicly accessible domain name.
 
@@ -17,13 +17,13 @@ Note that standard ports might interfere with other services already listening, 
 
 See https://dashboard.ngrok.com/get-started/setup/windows for detailed instructions.
 
-2. Register GitHub OAuth application
+**2. Register GitHub OAuth application**
 
 Create a GitHub OAuth application. The Consumer Key and Consumer Secret are used to authorize access to GitHub resources.
 
 See https://docs.drone.io/server/provider/github/ for details.
 
-3. Fill out env files
+**3. Fill out env files**
 
 There are example env files shipped with this repository, fill in and rename as follows.
 
